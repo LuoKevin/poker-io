@@ -1,0 +1,37 @@
+{
+  "name": "poker-io",
+  "version": "1.0.0",
+  "description": "Lightweight Texas Hold'em poker web application featuring real-time game rooms and rendering.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuoKevin/poker-io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuoKevin/poker-io/issues"
+  },
+  "homepage": "https://github.com/LuoKevin/poker-io#readme",
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.2",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
+}
