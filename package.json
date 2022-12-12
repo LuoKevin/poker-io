@@ -21,7 +21,7 @@
   "dependencies": {
     "babel-loader": "^8.1.0",
     "cookie-parser": "^1.4.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^2.0.2",
     "pg": "^7.18.2",
     "webpack": "^4.42.1"
